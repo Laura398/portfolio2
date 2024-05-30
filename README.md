@@ -1,30 +1,38 @@
-# React + TypeScript + Vite
+<div align="center"><img src="./logo.svg" alt="logo"></div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<br />
 
-Currently, two official plugins are available:
+<h1 align="center">Portfolio</h1>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<div align="center">
 
-## Expanding the ESLint configuration
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+</div>
 
-- Configure the top-level `parserOptions` property like this:
+<br />
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Description
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Welcome to my portfolio! I'm Laura Mathieu, a full-stack web developer passionate about creating engaging and functional web experiences.
+
+This website showcases a selection of my projects, demonstrating my skills in both frontend and backend technologies.
+
+Each project is accompanied by a brief description, highlighting its purpose, my role, and the technologies used.
+
+Feel free to explore, and don't hesitate to reach out if you have any questions or collaboration opportunities!
+
+Development is still ongoing, definitive version will come soon.
+
+## Key Features
+
+- Demonstrates expertise.
+- Highlights a diverse range of projects.
+- Clear contact information for inquiries or collaboration opportunities.
+
+## Access
+
+The website is accessible here : https://www.info.lauramathieu.com/
+
+Thank you for visiting!

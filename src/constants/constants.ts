@@ -2,10 +2,17 @@ export const IS_MOBILE = window.innerWidth < parseInt("960px");
 
 export const PROJECTS = [
   {
-    itemImageSrc:
-      "/assets/sites/ayakashi.png",
-    thumbnailImageSrc:
-      "/assets/sites/ayakashi.png",
+    itemImageSrc: "/assets/sites/portfolio-v1.png",
+    thumbnailImageSrc: "/assets/sites/portfolio-v1.png",
+    title: "Portfolio v1",
+    type: "Website",
+    stack: "Typescript, React, Material-UI/Joy-UI",
+    link: "https://www.portfolio.lauramathieu.com/",
+    mobile: false,
+  },
+  {
+    itemImageSrc: "/assets/sites/ayakashi.png",
+    thumbnailImageSrc: "/assets/sites/ayakashi.png",
     title: "Ayakashi Project",
     type: "Website",
     stack: "Typescript, React, Material-UI",
@@ -13,10 +20,8 @@ export const PROJECTS = [
     mobile: false,
   },
   {
-    itemImageSrc:
-      "/assets/sites/jdrg.png",
-    thumbnailImageSrc:
-      "/assets/sites/jdrg.png",
+    itemImageSrc: "/assets/sites/jdrg.png",
+    thumbnailImageSrc: "/assets/sites/jdrg.png",
     title: "Mundi Bellum",
     type: "Web application",
     stack: "Typescript, React, Material-UI, Node.js, NestJs, MongoDB",
@@ -24,15 +29,13 @@ export const PROJECTS = [
     mobile: false,
   },
   {
-    itemImageSrc:
-      "/assets/sites/randoms-phone.png",
-    thumbnailImageSrc:
-      "/assets/sites/randoms.png",
+    itemImageSrc: "/assets/sites/randoms-phone.png",
+    thumbnailImageSrc: "/assets/sites/randoms.png",
     title: "Useless Randoms",
     type: "Mobile Application",
     stack: "Typescript, Ionic, Capacitor",
     link: "https://useless-randoms.lauramathieu.com/",
     mobile: true,
-    app: "/assets/apps/useless-randoms.apk"
+    app: "/assets/apps/useless-randoms.apk",
   },
 ];
