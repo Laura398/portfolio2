@@ -1,7 +1,3 @@
-<div align="center"><img src="./logo.svg" alt="logo"></div>
-
-<br />
-
 <h1 align="center">Portfolio</h1>
 
 <div align="center">
