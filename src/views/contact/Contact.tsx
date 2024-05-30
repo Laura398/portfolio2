@@ -13,6 +13,7 @@ export default function Contact() {
 
   return (
     <Card
+      id="contact"
       style={{
         maxWidth: "95vw",
         margin: "auto",
@@ -85,7 +86,7 @@ export default function Contact() {
       <Dialog
         header={t("phone")}
         visible={visible}
-        style={{ width: IS_MOBILE ? "90vw" : "50vw"}}
+        style={{ width: IS_MOBILE ? "90vw" : "50vw" }}
         onHide={() => {
           if (!visible) return;
           setVisible(false);
