@@ -12,11 +12,8 @@ export default function Header() {
 
   const onClick = (item: MenuItem) => {
     if (isHome) {
-      console.log(item.id);
       if (item.id) {
         const element = document.getElementById(item.id);
-        console.log(element);
-
         if (element) {
           element.scrollIntoView({
             behavior: "smooth",

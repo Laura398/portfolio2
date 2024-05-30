@@ -75,9 +75,7 @@ export default function ContactForm() {
     if (!message) {
       return showError("messageError");
     }
-
-    console.log("submit");
-
+    
     const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
     const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
     const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
