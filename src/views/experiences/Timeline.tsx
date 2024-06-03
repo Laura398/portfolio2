@@ -43,7 +43,19 @@ export default function TimelineComponent() {
       places: [
         `Ynov Informatique, ${t(
           "apprenticeship"
-        )} | Toulouse, France | 2021-2024`,
+        )} | Toulouse, France | 2022-2024`,
+      ],
+      color: "bg-cyan-100",
+      textColor: "text-cyan-500",
+      titleColor: "text-cyan-100",
+      bgColor: "bg-cyan-50",
+    },
+    {
+      title: `${t("ynovBachelor")}`,
+      places: [
+        `Ynov Informatique, ${t(
+          "apprenticeship"
+        )} | Toulouse, France | 2021-2022`,
       ],
       color: "bg-cyan-100",
       textColor: "text-cyan-500",
