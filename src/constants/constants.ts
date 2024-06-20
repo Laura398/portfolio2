@@ -33,7 +33,7 @@ export const PROJECTS = [
     thumbnailImageSrc: "/assets/sites/randoms.png",
     title: "Useless Randoms",
     type: "Mobile Application",
-    stack: "Typescript, Ionic, Capacitor",
+    stack: "Typescript, Angular, Ionic, Capacitor",
     link: "https://useless-randoms.lauramathieu.com/",
     mobile: true,
     app: "/assets/apps/useless-randoms.apk",
