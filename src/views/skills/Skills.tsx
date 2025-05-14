@@ -29,16 +29,16 @@ export default function Skills() {
       name: "BackEnd",
       list: [
         {
+          name: "ts",
+          link: "https://www.typescriptlang.org/",
+        },
+        {
           name: "node",
           link: "https://nodejs.org/en",
         },
         {
-          name: "php",
-          link: "https://www.php.net/",
-        },
-        {
-          name: "python",
-          link: "https://www.python.org/",
+          name: "nest",
+          link: "https://nestjs.com/",
         },
       ],
     },
@@ -50,12 +50,12 @@ export default function Skills() {
           link: "https://www.mongodb.com/fr-fr",
         },
         {
-          name: "mysql",
-          link: "https://www.mysql.com/fr/",
-        },
-        {
           name: "postgresql",
           link: "https://www.postgresql.org/",
+        },
+        {
+          name: "mysql",
+          link: "https://www.mysql.com/fr/",
         },
       ],
     },
@@ -67,12 +67,12 @@ export default function Skills() {
           link: "https://www.docker.com/",
         },
         {
-          name: "kubernetes",
-          link: "https://kubernetes.io/fr/",
+          name: "github",
+          link: "https://github.com/features/actions",
         },
         {
-          name: "github-gitlab",
-          link: "https://github.com/features/actions",
+          name: "gitlab",
+          link: "https://docs.gitlab.com/ci/",
         },
       ],
     },
@@ -87,7 +87,10 @@ export default function Skills() {
         marginTop: "20px",
       }}
     >
-      <h1 className="text-cyan-500" style={{ textAlign: "center", margin: "20px auto" }}>
+      <h1
+        className="text-cyan-500"
+        style={{ textAlign: "center", margin: "20px auto" }}
+      >
         {t("skills")}
       </h1>
       <div
