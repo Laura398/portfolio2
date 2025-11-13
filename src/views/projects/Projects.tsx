@@ -15,7 +15,7 @@ export default function Projects() {
   const action = (project: Project) => {
     if (project.mobile) {
       setVisible(true);
-    } else {
+    } else if (project.title !== "Mundi Bellum") {
       window.open(project.link, "_blank");
     }
   };
